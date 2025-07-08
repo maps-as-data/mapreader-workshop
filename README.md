@@ -2,12 +2,16 @@
 July 14, 2025
 Lisbon, Portugal
 
-[![Slides](https://img.shields.io/badge/slides-red)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
+[![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
 
-[![Documentation](https://img.shields.io/badge/documentation-pink)](https://mapreader.readthedocs.io/en/latest)
+[![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
-This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader).
+This repo contains 2 worked examples of running [MapReader](https://github.com/maps-as-data/MapReader).
 
+1. **Patch Classification**: This notebook demonstrates how to use MapReader to automatically classify regions of historical maps.
+2. **Text Spotting**: This notebook demonstrates how to use MapReader to detect and recognize text on historical maps using a pre-trained text spotting model.
+
+## Setup
 Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker, or locally.
 
 <h2>Table of contents</h2>
@@ -21,7 +25,7 @@ Follow the instructions below to set up the notebook on Google Colab (**recommen
 - [Option 3: Local](#option-3-local)
 
 
-## Option 1: Google Colab
+### Option 1: Google Colab
 
 If you are familiar with Google Colab, you can set up the notebook by following these steps. If you are new to Google Colab, please refer to the [detailed instructions](#detailed-instructions-for-setting-up-colab) below.
 
@@ -30,7 +34,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 - Paste the URL of this repository into the search bar and press Enter
 - Open `mapreader_text_spotting_dh_july_2025.ipynb`
 
-### Detailed instructions for setting up Colab
+#### Detailed instructions for setting up Colab
 
 1. In your browser, navigate to [Google Colab](https://colab.research.google.com/).
 
@@ -46,7 +50,9 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_text_spotting_dh_july_2025.ipynb` to open it.
+4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_classification_dh_july_2025.ipynb` to open it.
+
+NB: When testing the iiif_text_spotting notebook, you should open the `iiif_textspotting_DH_2025_workshop.ipynb` notebook instead.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
@@ -64,7 +70,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
     ![Run the first cell of the notebook](images/3-installation-warnings-and-success.png)
 
-### Optional: Change the runtime type
+#### Optional: Change the runtime type
 
 By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, you can change this by clicking `Runtime` > `Change runtime type` and selecting `GPU` from the `Hardware accelerator` dropdown.
 
@@ -84,9 +90,9 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 
     ![GPU runtime](images/4-resources-result.png)
 
-## Option 2: Docker
+### Option 2: Docker
 
-### Creating the Docker image
+#### Creating the Docker image
 
 Clone the repository and navigate to the root directory of the repository.
 
@@ -101,7 +107,7 @@ To create the Docker image, run the following command:
 docker build -t mapreader-workshop .
 ```
 
-### Running the Docker container
+#### Running the Docker container
 
 To run the Docker container, run the following command:
 
@@ -111,7 +117,7 @@ docker run -p 8888:8888 --mount source=workshop_outputs,target=/app mapreader-wo
 
 Click the link that appears in the terminal to open the notebook in your browser.
 
-## Option 3: Local
+### Option 3: Local
 
 To run the notebook locally, follow the instructions [here](https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html) to set up your MapReader python environment.
 
@@ -125,5 +131,5 @@ You can then run the notebook by running:
 
 ```bash
 
-jupyter notebook mapreader_text_spotting_dh_july_2025.ipynb
+jupyter notebook mapreader_classification_dh_july_2025.ipynb
 ```
