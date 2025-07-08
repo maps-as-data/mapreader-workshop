@@ -6,12 +6,12 @@ Lisbon, Portugal
 
 [![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
-This repo contains 2 worked examples of running [MapReader](https://github.com/maps-as-data/MapReader).
+This repo contains 2 worked examples for using [MapReader](https://github.com/maps-as-data/MapReader).
 
-1. **Patch Classification**: This notebook demonstrates how to use MapReader to automatically classify regions of historical maps.
-2. **Text Spotting**: This notebook demonstrates how to use MapReader to detect and recognize text on historical maps using a pre-trained text spotting model.
+1. **Patch Classification**: automatically classify regions of historical maps.
+2. **Text Spotting**: detect and recognize text on historical maps using a pre-trained text spotting model.
 
-But first, let's get the notebooks set up.
+*But first, let's get the notebooks set up.*
 
 
 ## Setup
