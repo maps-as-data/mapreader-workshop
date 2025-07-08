@@ -11,10 +11,11 @@ This repo contains 2 worked examples of running [MapReader](https://github.com/m
 1. **Patch Classification**: This notebook demonstrates how to use MapReader to automatically classify regions of historical maps.
 2. **Text Spotting**: This notebook demonstrates how to use MapReader to detect and recognize text on historical maps using a pre-trained text spotting model.
 
+But first, let's get the notebooks set up.
+
+
 ## Setup
 Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker, or locally.
-
-<h2>Table of contents</h2>
 
 - [Option 1: Google Colab](#option-1-Google-Colab)
 - [Detailed instructions for setting up Colab](#detailed-instructions-for-setting-up-Colab)
@@ -27,14 +28,7 @@ Follow the instructions below to set up the notebook on Google Colab (**recommen
 
 ### Option 1: Google Colab
 
-If you are familiar with Google Colab, you can set up the notebook by following these steps. If you are new to Google Colab, please refer to the [detailed instructions](#detailed-instructions-for-setting-up-colab) below.
-
-- Open [Google Colab](https://colab.research.google.com/)
-- In the "Open notebook" window, click the "GitHub" option
-- Paste the URL of this repository into the search bar and press Enter
-- Open `mapreader_classification_dh_july_2025.ipynb`
-
-#### Detailed instructions for setting up Colab
+If you are familiar with Google Colab, you can set up the notebook by following these steps. 
 
 1. In your browser, navigate to [Google Colab](https://colab.research.google.com/).
 
@@ -42,15 +36,17 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
    ![Open notebook window](images/1-open-notebook.png)
 
-2. In the "Open notebook" window, click the "GitHub" option:
+2. In the "Open notebook" window, **click the "GitHub" option**:
 
    ![Open notebook window's GitHub option](images/1-open-notebook-github.png)
 
-3. Paste the URL of this repository into the search bar and press `Enter`.
+3. Paste the **URL of this repository into the search bar** and press `Enter`.
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_classification_dh_july_2025.ipynb` to open it.
+4. After pressing `Enter`, a list of notebooks in the repository should appear. C**lick on `mapreader_classification_dh_july_2025.ipynb` to open it.**
+
+    ![List of notebooks](images/1-open-notebook-list.png)
 
 NB: When testing the iiif_text_spotting notebook, you should open the `iiif_textspotting_dh_july_2025.ipynb` notebook instead.
 
