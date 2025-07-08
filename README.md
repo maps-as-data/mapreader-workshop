@@ -12,13 +12,13 @@ Follow the instructions below to set up the notebook on Google Colab (**recommen
 
 <h2>Table of contents</h2>
 
-- [Option 1: Google Colab](#option-1:-Google-Colab)
+- [Option 1: Google Colab](#option-1-Google-Colab)
 - [Detailed instructions for setting up Colab](#detailed-instructions-for-setting-up-Colab)
   - [Optional: Change the runtime type](#optional-change-the-runtime-type)
-- [Option 2: Docker](#option-2:-docker)
+- [Option 2: Docker](#option-2-docker)
   - [Creating the Docker image](#creating-the-docker-image)
   - [Running the Docker container](#running-the-docker-container)
-- [Option 3: Local](#option-3:-local)
+- [Option 3: Local](#option-3-local)
 
 
 ## Option 1: Google Colab
