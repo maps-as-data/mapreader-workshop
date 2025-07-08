@@ -32,7 +32,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 - Open [Google Colab](https://colab.research.google.com/)
 - In the "Open notebook" window, click the "GitHub" option
 - Paste the URL of this repository into the search bar and press Enter
-- Open `mapreader_text_spotting_dh_july_2025.ipynb`
+- Open `mapreader_classification_dh_july_2025.ipynb`
 
 #### Detailed instructions for setting up Colab
 
@@ -52,7 +52,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
 4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_classification_dh_july_2025.ipynb` to open it.
 
-NB: When testing the iiif_text_spotting notebook, you should open the `iiif_textspotting_DH_2025_workshop.ipynb` notebook instead.
+NB: When testing the iiif_text_spotting notebook, you should open the `iiif_textspotting_dh_july_2025.ipynb` notebook instead.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
