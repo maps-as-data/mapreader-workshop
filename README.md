@@ -1,33 +1,36 @@
-# EDHS - January 2025 - MapReader Session
+# ADHO DH 2025 MapReader Workshop
+July 14, 2025
+Lisbon, Portugal
 
 [![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
+
 [![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
-This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader), designed for the [EDHS MapReader session in January 2025](https://www.digital-humanities.manchester.ac.uk/connect/events/edhs/).
+This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader).
 
-Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker or locally.
+Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker, or locally.
 
 <h2>Table of contents</h2>
 
-- [Set up - Google Colab (short version)](#set-up---google-colab-short-version)
-- [Detailed instructions for setting up on Google Colab](#detailed-instructions-for-setting-up-on-google-colab)
+- [Option 1: Google Colab](#option-1:-Google-Colab)
+- [Detailed instructions for setting up Colab](#detailed-instructions-for-setting-up-Colab)
   - [Optional: Change the runtime type](#optional-change-the-runtime-type)
-- [Set up - Docker](#set-up---docker)
+- [Option 2: Docker](#option-2:-docker)
   - [Creating the Docker image](#creating-the-docker-image)
   - [Running the Docker container](#running-the-docker-container)
-- [Set up - Local](#set-up---local)
+- [Option 3: Local](#option-3:-local)
 
 
-## Set up - Google Colab (short version)
+## Option 1: Google Colab
 
-If you are familiar with Google Colab, you can set up the notebook by following these steps. If you are new to Google Colab, please refer to the [detailed instructions](#detailed-instructions-for-setting-up-on-google-colab) below.
+If you are familiar with Google Colab, you can set up the notebook by following these steps. If you are new to Google Colab, please refer to the [detailed instructions](#detailed-instructions-for-setting-up-colab) below.
 
 - Open [Google Colab](https://colab.research.google.com/)
 - In the "Open notebook" window, click the "GitHub" option
 - Paste the URL of this repository into the search bar and press Enter
-- Open `mapreader_edhs_jan_2025.ipynb`
+- Open `mapreader_text_spotting_dh_july_2025.ipynb`
 
-## Detailed instructions for setting up on Google Colab
+### Detailed instructions for setting up Colab
 
 1. In your browser, navigate to [Google Colab](https://colab.research.google.com/).
 
@@ -43,7 +46,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_edhs_jan_2025.ipynb` to open it.
+4. After pressing `Enter`, a list of notebooks in the repository should appear. Click on `mapreader_text_spotting_dh_july_2025.ipynb` to open it.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
@@ -81,15 +84,15 @@ By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, y
 
     ![GPU runtime](images/4-resources-result.png)
 
-## Set up - Docker
+## Option 2: Docker
 
 ### Creating the Docker image
 
 Clone the repository and navigate to the root directory of the repository.
 
 ```bash
-git clone https://github.com/maps-as-data/edhs-jan-2025.git
-cd edhs-jan-2025
+git clone https://github.com/maps-as-data/workshop-dh2025.git
+cd workshop-dh2025
 ```
 
 To create the Docker image, run the following command:
@@ -108,7 +111,7 @@ docker run -p 8888:8888 --mount source=workshop_outputs,target=/app mapreader-wo
 
 Click the link that appears in the terminal to open the notebook in your browser.
 
-## Set up - Local
+## Option 3: Local
 
 To run the notebook locally, follow the instructions [here](https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html) to set up your MapReader python environment.
 
@@ -122,5 +125,5 @@ You can then run the notebook by running:
 
 ```bash
 
-jupyter notebook mapreader_edhs_jan_2025.ipynb
+jupyter notebook mapreader_text_spotting_dh_july_2025.ipynb
 ```
