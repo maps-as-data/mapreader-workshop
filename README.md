@@ -2,9 +2,9 @@
 July 14, 2025
 Lisbon, Portugal
 
-[![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
+[![Slides](https://img.shields.io/badge/slides-red)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
 
-[![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
+[![Documentation](https://img.shields.io/badge/documentation-pink)](https://mapreader.readthedocs.io/en/latest)
 
 This repo contains a worked example of running [MapReader](https://github.com/maps-as-data/MapReader).
 
