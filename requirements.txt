@@ -1,1 +1,4 @@
-mapreader[dev]
+mapreader[dev] @ git+https://github.com/maps-as-data/MapReader.git
+detectron2 @ git+https://github.com/facebookresearch/detectron2.git
+MapTextPipeline @ git+https://github.com/maps-as-data/MapTextPipeline.git
+piffle @ git+https://github.com/rwood-97/piffle.git@iiif_dataclasses
