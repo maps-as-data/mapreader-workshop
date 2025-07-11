@@ -120,6 +120,7 @@ To run the notebook locally, follow the instructions [here](https://mapreader.re
 You can then install the required packages for this notebook by running:
 
 ```bash
+pip install torch
 pip install -r requirements.txt
 ```
 
