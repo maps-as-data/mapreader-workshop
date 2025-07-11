@@ -173,3 +173,7 @@ annotations/*
 /*patch_df.csv
 /*parent_df.csv
 predicted_outputs.geojson
+
+# MaReader Inputs
+
+maps/*
