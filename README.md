@@ -115,9 +115,9 @@ Click the link that appears in the terminal to open the notebook in your browser
 
 ### Option 3: Local
 
-To run the notebook locally, follow the instructions [here](https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html) to set up your MapReader python environment.
+To run the notebook locally, follow the instructions for Step 1 & Step 3 ONLY [here](https://mapreader.readthedocs.io/en/latest/getting-started/installation-instructions/index.html) to set up your MapReader python environment. You do not need to run commands for Step 2, instead run the commands below.
 
-You can then install the required packages for this notebook by running:
+You can now install the required packages for this notebook by running:
 
 ```bash
 pip install torch
