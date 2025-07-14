@@ -6,16 +6,19 @@ Lisbon, Portugal
 
 [![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
-This repo contains 2 worked examples for using [MapReader](https://github.com/maps-as-data/MapReader).
+This repo contains 3 worked examples for using [MapReader](https://github.com/maps-as-data/MapReader).
 
-1. **Patch Classification**: automatically classify regions of historical maps.
-2. **Text Spotting**: detect and recognize text on historical maps using a pre-trained text spotting model.
+1. **Patch Classification (XYZ tiles)**: `mapreader_classification_dh_july_2025.ipynb`. Task: automatically classify regions of historical maps from the National Library of Scotland OS collection.
+2. **Patch Classification (IIIF)**: `iiif_classification_dh_july_2025.ipynb`. Task: automatically classify regions of historical maps available as IIIF resources (using an example from the [Leventhal Map & Education Center](https://collections.leventhalmap.org/)).
+3. **Text Spotting**: `iiif_textspotting_geor_dh_july_2025.ipynb`. Task: detect and recognize text on historical maps using a pre-trained text spotting model. This notebook uses the same Leventhal Collection IIIF map as the previous notebook.
 
 *But first, let's get the notebooks set up.*
 
 
 ## Setup
 Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker, or locally.
+
+We recommend using Colab today for all notebooks, but there will be some potential errors depending on your Colab runtime. You also cannot scale up your text spotting to the entire image, or the notebook will crash :) 
 
 - [Option 1: Google Colab](#option-1-Google-Colab)
 - [Detailed instructions for setting up Colab](#detailed-instructions-for-setting-up-Colab)
@@ -28,7 +31,7 @@ Follow the instructions below to set up the notebook on Google Colab (**recommen
 
 ### Option 1: Google Colab
 
-If you are familiar with Google Colab, you can set up the notebook by following these steps. 
+If you are familiar with Google Colab, you can set up a notebook by following these steps. 
 
 1. In your browser, navigate to [Google Colab](https://colab.research.google.com/).
 
@@ -40,7 +43,7 @@ If you are familiar with Google Colab, you can set up the notebook by following 
 
    ![Open notebook window's GitHub option](images/1-open-notebook-github.png)
 
-3. Paste the **URL of this repository into the search bar** and press `Enter`.
+3. Paste the **URL of this repository into the search bar** and press `Enter`. URL = `https://github.com/maps-as-data/workshop-dh2025`
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
