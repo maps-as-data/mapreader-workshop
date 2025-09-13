@@ -1,6 +1,4 @@
-# ADHO DH 2025 MapReader Workshop
-July 14, 2025
-Lisbon, Portugal
+# Introduction to MapReader Workshop
 
 [![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
 
@@ -12,13 +10,17 @@ This repo contains 3 worked examples for using [MapReader](https://github.com/ma
 2. **Patch Classification (IIIF)**: `iiif_classification_dh_july_2025_colab.ipynb` & `iiif_classification_dh_july_2025_local.ipynb`. Task: automatically classify regions of historical maps available as IIIF resources (using an example from the [Leventhal Map & Education Center](https://collections.leventhalmap.org/)).
 3. **Text Spotting**: `iiif_textspotting_geor_dh_july_2025_colab.ipynb` & `iiif_textspotting_geor_dh_july_2025_local.ipynb`. Task: detect and recognize text on historical maps using a pre-trained text spotting model. This notebook uses the same Leventhal Collection IIIF map as the previous notebook.
 
-*But first, let's get the notebooks set up.*
+Today, we are only going to review the **Patch Classification (XYZ tiles)** and **Text Spotting** notebooks, but you can try notebook #2 later!
+
+*First, let's get the notebooks set up.*
 
 
 ## Setup
 Follow the instructions below to set up the notebook on Google Colab (**recommended**), in Docker, or locally.
 
-There are Colab versions today for all notebooks. There are also `local` version for both iiif notebooks (patch classification & text spotting). In the Colab versions of those notebooks, there will be some potential errors depending on your Colab runtime. You also cannot scale up your text spotting to the entire image, or the notebook will crash :) Use the local versions if you want more flexibility.
+There are Colab versions for all notebooks. Use these unless you are familiar with using notebooks locally or via Docker.
+
+There are also `local` version for both iiif notebooks (patch classification & text spotting). In the Colab versions of both iiif notebooks, there may be errors depending on your Colab runtime. You also cannot scale up your text spotting to the entire image, or the notebook will likely crash :) Use the local versions if you want more flexibility.
 
 - [Option 1: Google Colab](#option-1-Google-Colab)
 - [Detailed instructions for setting up Colab](#detailed-instructions-for-setting-up-Colab)
