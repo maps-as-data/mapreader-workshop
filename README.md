@@ -6,9 +6,9 @@
 
 This repo contains 3 worked examples for using [MapReader](https://github.com/maps-as-data/MapReader).
 
-1. **Patch Classification (XYZ tiles)**: `mapreader_classification_dh_july_2025_colab.ipynb`. Task: automatically classify regions of historical maps from the National Library of Scotland OS collection.
-2. **Patch Classification (IIIF)**: `iiif_classification_dh_july_2025_colab.ipynb` & `iiif_classification_dh_july_2025_local.ipynb`. Task: automatically classify regions of historical maps available as IIIF resources (using an example from the [Leventhal Map & Education Center](https://collections.leventhalmap.org/)).
-3. **Text Spotting**: `iiif_textspotting_geor_dh_july_2025_colab.ipynb` & `iiif_textspotting_geor_dh_july_2025_local.ipynb`. Task: detect and recognize text on historical maps using a pre-trained text spotting model. This notebook uses the same Leventhal Collection IIIF map as the previous notebook.
+1. **Patch Classification (XYZ tiles)**: `mapreader_classification_2025_colab.ipynb`. Task: automatically classify regions of historical maps from the National Library of Scotland OS collection.
+2. **Patch Classification (IIIF)**: `iiif_classification_2025_colab.ipynb` & `iiif_classification_2025_local.ipynb`. Task: automatically classify regions of historical maps available as IIIF resources (using an example from the [Leventhal Map & Education Center](https://collections.leventhalmap.org/)).
+3. **Text Spotting**: `iiif_textspotting_geor_2025_colab.ipynb` & `iiif_textspotting_geor_2025_local.ipynb`. Task: detect and recognize text on historical maps using a pre-trained text spotting model. This notebook uses the same Leventhal Collection IIIF map as the previous notebook.
 
 Today, we are only going to review the **Patch Classification (XYZ tiles)** and **Text Spotting** notebooks, but you can try notebook #2 later!
 
@@ -45,15 +45,15 @@ Set up a notebook by following these steps.
 
    ![Open notebook window's GitHub option](images/1-open-notebook-github.png)
 
-3. Paste the **URL of this repository into the search bar** and press `Enter`. URL = `https://github.com/maps-as-data/workshop-dh2025`
+3. Paste the **URL of this repository into the search bar** and press `Enter`. URL = `https://github.com/maps-as-data/mapreader-workshop`
 
     ![GitHub search bar](images/1-open-notebook-url.png)
 
-4. After pressing `Enter`, a list of notebooks in the repository should appear. C**lick on `mapreader_classification_dh_july_2025_colab.ipynb` to open it.**
+4. After pressing `Enter`, a list of notebooks in the repository should appear. **Click on `mapreader_classification_2025_colab.ipynb` to open it.**
 
     ![List of notebooks](images/1-open-notebook-list.png)
 
-NB: When testing a different notebook, e.g. the iiif_text_spotting notebook, you should open the link for that notebook instead, e.g.  `iiif_textspotting_dh_july_2025_colab.ipynb`.
+NB: When testing a different notebook, e.g. the iiif_text_spotting notebook, you should open the link for that notebook instead, e.g.  `iiif_textspotting_2025_colab.ipynb`.
 
     ![Select the notebook](images/1-open-notebook-link.png)
 
@@ -137,5 +137,5 @@ You can then run any of the notebooks by running `jupyter + [notebook name]`. Fo
 
 ```bash
 
-jupyter notebook mapreader_classification_dh_july_2025_local.ipynb
+jupyter notebook mapreader_classification_2025_local.ipynb
 ```
