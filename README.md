@@ -102,8 +102,8 @@ Text spotting - Change runtine to a GPU option.
 Clone the repository and navigate to the root directory of the repository.
 
 ```bash
-git clone https://github.com/maps-as-data/workshop-dh2025.git
-cd workshop-dh2025
+git clone https://github.com/maps-as-data/mapreader-workshop.git
+cd mapreader-workshop
 ```
 
 To create the Docker image, run the following command:
