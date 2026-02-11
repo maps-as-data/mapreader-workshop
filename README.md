@@ -1,7 +1,5 @@
 # Introduction to MapReader Workshop
 
-[![Slides](https://img.shields.io/badge/slides-blue)](https://github.com/maps-as-data/edhs-jan-2025/blob/main/slides.pdf)
-
 [![Documentation](https://img.shields.io/badge/documentation-green)](https://mapreader.readthedocs.io/en/latest)
 
 This repo contains 3 worked examples for using [MapReader](https://github.com/maps-as-data/MapReader).
