@@ -69,13 +69,29 @@ NB: When testing a different notebook, e.g. the iiif_text_spotting notebook, you
 
     ![Run the first cell of the notebook](images/3-installation-warnings-and-success.png)
 
+7. When you get to the cell that contains the code below, you need to **replace the URL for xyz_yrl=**
+   
+```
+parent_list = my_maps.list_parents()
+my_maps.explore_patches(
+    parent_list[0],
+    xyz_url="https://geo.nls.uk/mapdata3/os/6inchsecond/{z}/{x}/{y}.png"
+)
+```
+
+- To get the correct URL, go to: https://cloud.maptiler.com/tiles/uk-osgb10k1888/
+- Sign in to Maptiler (with a google account is easiest).
+- Scroll down to **Raster Tiles**
+- Copy the URL for the XYZ tiles that contains _your personal key_. It will look like this: https://api.maptiler.com/tiles/uk-osgb10k1888/{z}/{x}/{y}.jpg?key=dglEpvdF9J7mbW02hf5i
+- Paste this URL into the cell to replace the geo.nls.uk link
+
 #### Optional: Change the runtime type
 
 By default, Google Colab uses a CPU runtime. If you want to use a GPU runtime, you can change this by clicking `Runtime` > `Change runtime type` and selecting `GPU` from the `Hardware accelerator` dropdown.
 
-Patch classification - CPU is fine.
+**Patch classification - CPU is fine.
 
-Text spotting - Change runtine to a GPU option.
+Text spotting - Change runtine to a GPU option.**
 
 1. Click `Runtime` > `Change runtime type`.
 
